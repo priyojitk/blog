@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/jekyll/update/2018/09/11/welcome-to-jekyll!.html</loc>
+<loc>http://localhost:4000/blog/programming/2018/09/11/Hello-World.html</loc>
 <lastmod>2018-09-11T16:33:42+05:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/programming/2018/09/11/Hello-World.html</loc>
-<lastmod>2018-09-11T16:33:42+05:30</lastmod>
+<loc>http://localhost:4000/blog/program/chaining/2018/09/14/Program-to-find-unique-words-using-chaining.html</loc>
+<lastmod>2018-09-14T16:33:42+05:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/about/</loc>
+<loc>http://localhost:4000/blog/program/chaining/2018/09/14/Program-to-find-successive-unique-words-using-chaining.html</loc>
+<lastmod>2018-09-14T16:55:42+05:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/blog/programming/error/2018/09/15/undefined-reference-to-math-function.html</loc>
+<lastmod>2018-09-15T10:33:42+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/</loc>
 </url>
 </urlset>

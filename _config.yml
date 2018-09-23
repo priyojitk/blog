@@ -9,9 +9,9 @@
 title: Priyojit Kharibam
 email: priyojitkharibam@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is my blog where I will share my knowledge.
+  This is where I will be sharing my knowledge.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://priyojit.github.io" # the base hostname & protocol for your site
 twitter_username: priyojitkh
 github_username:  priyojitk
 
