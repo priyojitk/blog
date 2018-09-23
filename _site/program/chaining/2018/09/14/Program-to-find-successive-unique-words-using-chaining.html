@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Program to find successive unique words using hashing (chaining)</title>
-  <meta name="description" content="``` c#include #include #include #include ">
+  <meta name="description" content="``` c#include #include #include #include struct Node{	char word[50];	struct Node *next;};">
 
   <link rel="stylesheet" href="/blog/css/main.css">
   <link rel="canonical" href="http://localhost:4000/blog/program/chaining/2018/09/14/Program-to-find-successive-unique-words-using-chaining.html">
@@ -18,15 +18,15 @@
 <meta name="generator" content="Jekyll v3.8.3" />
 <meta property="og:title" content="Program to find successive unique words using hashing (chaining)" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="``` c #include #include #include #include" />
-<meta property="og:description" content="``` c #include #include #include #include" />
+<meta name="description" content="``` c #include #include #include #include struct Node { char word[50]; struct Node *next; };" />
+<meta property="og:description" content="``` c #include #include #include #include struct Node { char word[50]; struct Node *next; };" />
 <link rel="canonical" href="http://localhost:4000/blog/program/chaining/2018/09/14/Program-to-find-successive-unique-words-using-chaining.html" />
 <meta property="og:url" content="http://localhost:4000/blog/program/chaining/2018/09/14/Program-to-find-successive-unique-words-using-chaining.html" />
 <meta property="og:site_name" content="Priyojit Kharibam" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-09-14T16:55:42+05:30" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"Program to find successive unique words using hashing (chaining)","dateModified":"2018-09-14T16:55:42+05:30","url":"http://localhost:4000/blog/program/chaining/2018/09/14/Program-to-find-successive-unique-words-using-chaining.html","datePublished":"2018-09-14T16:55:42+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/program/chaining/2018/09/14/Program-to-find-successive-unique-words-using-chaining.html"},"description":"``` c #include #include #include #include","@context":"http://schema.org"}</script>
+{"@type":"BlogPosting","headline":"Program to find successive unique words using hashing (chaining)","dateModified":"2018-09-14T16:55:42+05:30","url":"http://localhost:4000/blog/program/chaining/2018/09/14/Program-to-find-successive-unique-words-using-chaining.html","datePublished":"2018-09-14T16:55:42+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/program/chaining/2018/09/14/Program-to-find-successive-unique-words-using-chaining.html"},"description":"``` c #include #include #include #include struct Node { char word[50]; struct Node *next; };","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -87,7 +87,7 @@
 #include &lt;stdlib.h&gt;
 #include &lt;string.h&gt;
 #include &lt;math.h&gt;
-</span>
+</span>    
 <span class="k">struct</span> <span class="n">Node</span>
 <span class="p">{</span>
 	<span class="kt">char</span> <span class="n">word</span><span class="p">[</span><span class="mi">50</span><span class="p">];</span>
@@ -173,7 +173,7 @@
 	<span class="p">}</span>
 
 	<span class="n">printf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="n">count</span><span class="p">);</span>
-	<span class="n">printTable</span><span class="p">(</span><span class="n">hashTable</span><span class="p">);</span>
+	<span class="c1">//printTable(hashTable);</span>
 <span class="p">}</span>
 </code></pre></div></div>
 

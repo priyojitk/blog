@@ -10,7 +10,7 @@ categories: program chaining
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-
+    
 struct Node
 {
 	char word[50];
@@ -96,7 +96,7 @@ int main()
 	}
 
 	printf("%d", count);
-	printTable(hashTable);
+	//printTable(hashTable);
 }
 ```
 
